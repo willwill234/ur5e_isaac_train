@@ -107,6 +107,62 @@ RUN apt update \
 
 RUN ./config/pip/pip_setup.sh
 
+RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+RUN export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+
+RUN sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
+RUN sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo $(lsb_release -cs) main" -u
+RUN apt update && apt install -y --no-install-recommends \
+#   #Realsense SDK depend
+    librealsense2-dkms \
+    librealsense2-utils \
+    librealsense2-dev \
+    librealsense2-dbg \
+    # ros-humble-librealsense2* \
+    ros-humble-diagnostic-updater \
+    ros-humble-moveit \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists 
+
+
+#   #OMPL depend
+RUN apt update && apt install -y --no-install-recommends \
+    lsb-release \
+    g++ \
+    cmake \
+    pkg-config \
+    libboost-serialization-dev \
+    libboost-filesystem-dev \
+    libboost-system-dev \
+    libboost-program-options-dev \
+    libboost-test-dev \
+    libeigen3-dev \
+    libode-dev wget \
+    libyaml-cpp-dev \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists 
+
+RUN sudo pip3 install -vU https://github.com/CastXML/pygccxml/archive/develop.zip pyplusplus
+
+RUN apt update && apt install -y --no-install-recommends \
+    castxml \
+    libboost-python-dev \
+    libboost-numpy-dev \
+    python3-numpy \
+    pypy3 \
+    python3-pyqt5.qtopengl \
+    freeglut3-dev \
+    libassimp-dev \
+    python3-opengl \
+    python3-flask \
+    python3-celery \
+    libccd-dev \
+    libfcl-dev \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists 
+
+RUN sudo pip3 install -vU PyOpenGL-accelerate
+
 ############################## USER CONFIG ####################################
 # * Switch user to ${USER}
 USER ${USER}
@@ -115,9 +171,9 @@ RUN ./config/shell/bash_setup.sh "${USER}" "${GROUP}" \
     && ./config/shell/terminator/terminator_setup.sh "${USER}" "${GROUP}" \
     && ./config/shell/tmux/tmux_setup.sh "${USER}" "${GROUP}" \
     && sudo rm -rf /config
+RUN export CXX=g++
+RUN export MAKEFLAGS="-j nproc"
 
-RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
-RUN export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 # * Switch workspace to ~/work
 RUN sudo mkdir -p /home/"${USER}"/work
 WORKDIR /home/"${USER}"/work
