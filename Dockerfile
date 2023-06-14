@@ -173,6 +173,7 @@ RUN ./config/shell/bash_setup.sh "${USER}" "${GROUP}" \
     && sudo rm -rf /config
 RUN export CXX=g++
 RUN export MAKEFLAGS="-j nproc"
+RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 
 # * Switch workspace to ~/work
 RUN sudo mkdir -p /home/"${USER}"/work
