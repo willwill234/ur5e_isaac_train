@@ -108,7 +108,7 @@ RUN apt update \
 RUN ./config/pip/pip_setup.sh
 
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
-RUN export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+RUN echo "export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp" >> ~/.bashrc
 
 RUN sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE || sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
 RUN sudo add-apt-repository "deb https://librealsense.intel.com/Debian/apt-repo $(lsb_release -cs) main" -u
@@ -174,6 +174,7 @@ RUN ./config/shell/bash_setup.sh "${USER}" "${GROUP}" \
 RUN export CXX=g++
 RUN export MAKEFLAGS="-j nproc"
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+
 
 # * Switch workspace to ~/work
 RUN sudo mkdir -p /home/"${USER}"/work
