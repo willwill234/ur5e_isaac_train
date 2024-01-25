@@ -59,6 +59,7 @@ RUN apt update \
         terminator \
         # * base tools
         udev \
+        libtool \
         python3-pip \
         python3-dev \
         python3-setuptools \
