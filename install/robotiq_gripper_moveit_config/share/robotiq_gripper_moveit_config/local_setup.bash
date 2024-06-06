@@ -1,0 +1,1 @@
+/home/iclabwill/work/ubuntu22.04_ros2/build/robotiq_gripper_moveit_config/ament_cmake_environment_hooks/local_setup.bash

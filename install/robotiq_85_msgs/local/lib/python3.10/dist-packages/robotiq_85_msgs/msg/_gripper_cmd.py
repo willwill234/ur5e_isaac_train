@@ -1,0 +1,1 @@
+/home/iclabwill/work/ubuntu22.04_ros2/build/robotiq_85_msgs/rosidl_generator_py/robotiq_85_msgs/msg/_gripper_cmd.py

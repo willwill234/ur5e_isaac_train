@@ -1,0 +1,232 @@
+[0.011s] Invoking command in '/home/iclabwill/work/ubuntu22.04_ros2/isaac_c/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.111s] -- Detecting C compiler ABI info
+[0.169s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.177s] -- Detecting CXX compiler ABI info
+[0.244s] -- Detecting CXX compiler ABI info - done
+[0.252s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.252s] -- Detecting CXX compile features
+[0.253s] -- Detecting CXX compile features - done
+[0.257s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.388s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.436s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.474s] -- Found ament_cmake_pytest: 1.3.8 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.970s] -- Configuring done
+[0.973s] -- Generating done
+[0.975s] -- Build files have been written to: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/build/ur_description
+[0.978s] Invoked command in '/home/iclabwill/work/ubuntu22.04_ros2/isaac_c/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description
+[0.979s] Invoking command in '/home/iclabwill/work/ubuntu22.04_ros2/isaac_c/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/build/ur_description -- -j12 -l12
+[1.013s] Invoked command in '/home/iclabwill/work/ubuntu22.04_ros2/isaac_c/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/build/ur_description -- -j12 -l12
+[1.034s] Invoking command in '/home/iclabwill/work/ubuntu22.04_ros2/isaac_c/build/ur_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/build/ur_description
+[1.041s] -- Install configuration: ""
+[1.041s] -- Execute custom install script
+[1.042s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/initial_positions.yaml
+[1.051s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[1.059s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[1.067s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[1.075s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[1.084s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[1.092s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[1.100s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[1.107s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[1.115s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[1.123s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[1.131s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[1.140s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[1.147s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[1.155s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[1.163s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[1.171s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[1.179s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[1.187s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[1.195s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[1.203s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[1.211s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[1.218s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[1.227s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[1.236s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[1.244s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[1.252s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[1.259s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[1.267s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[1.275s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[1.283s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[1.292s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[1.301s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[1.309s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[1.318s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[1.326s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[1.335s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[1.342s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[1.353s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[1.361s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[1.369s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[1.378s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[1.386s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[1.394s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[1.402s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[1.411s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[1.421s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[1.432s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[1.443s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[1.454s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[1.466s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[1.477s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[1.488s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[1.499s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[1.508s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[1.518s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[1.528s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[1.539s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[1.548s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[1.558s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[1.568s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[1.578s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[1.587s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[1.595s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[1.604s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[1.614s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[1.622s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[1.632s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[1.642s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[1.652s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[1.660s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[1.671s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[1.680s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[1.689s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[1.699s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[1.709s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[1.719s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[1.729s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[1.738s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[1.750s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[1.760s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[1.770s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[1.782s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[1.794s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[1.805s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[1.821s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[1.833s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[1.846s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[1.858s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[1.871s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[1.882s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[1.894s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[1.907s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[1.923s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[1.936s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[1.948s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[1.961s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[1.971s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[1.982s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[1.996s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[2.008s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[2.018s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[2.038s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[2.048s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[2.064s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[2.075s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[2.107s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[2.125s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[2.140s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[2.174s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[2.187s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[2.201s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[2.214s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[2.227s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/collision/robotiq_85_base_link.stl
+[2.241s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/collision/robotiq_85_finger_link.stl
+[2.253s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/collision/robotiq_85_finger_tip_link.stl
+[2.267s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/collision/robotiq_85_inner_knuckle_link.stl
+[2.281s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/collision/robotiq_85_knuckle_link.stl
+[2.293s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/collision/ur_to_robotiq_adapter.stl
+[2.308s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/robotiq_85_coupler.stl
+[2.321s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/visual/robotiq_85_base_link.dae
+[2.332s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/visual/robotiq_85_finger_link.dae
+[2.345s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/visual/robotiq_85_finger_tip_link.dae
+[2.358s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/visual/robotiq_85_inner_knuckle_link.dae
+[2.371s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/visual/robotiq_85_knuckle_link.dae
+[2.384s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/meshes/visual/ur_to_robotiq_adapter.dae
+[2.397s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[2.408s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[2.418s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[2.427s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[2.435s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[2.444s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[2.453s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[2.463s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[2.473s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[2.481s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[2.490s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[2.498s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[2.506s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[2.513s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[2.521s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[2.529s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[2.537s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[2.545s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[2.553s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[2.562s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[2.569s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[2.578s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[2.585s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[2.593s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[2.601s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[2.609s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[2.617s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[2.625s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[2.633s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/collision/robotiq_85_base_link.stl
+[2.641s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/collision/robotiq_85_finger_link.stl
+[2.649s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/collision/robotiq_85_finger_tip_link.stl
+[2.657s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/collision/robotiq_85_inner_knuckle_link.stl
+[2.665s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/collision/robotiq_85_knuckle_link.stl
+[2.673s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/collision/ur_to_robotiq_adapter.stl
+[2.681s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/robotiq_85_coupler.stl
+[2.689s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/visual/robotiq_85_base_link.dae
+[2.697s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/visual/robotiq_85_finger_link.dae
+[2.705s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/visual/robotiq_85_finger_tip_link.dae
+[2.713s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/visual/robotiq_85_inner_knuckle_link.dae
+[2.721s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/visual/robotiq_85_knuckle_link.dae
+[2.729s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/meshes/visual/ur_to_robotiq_adapter.dae
+[2.737s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[2.744s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[2.752s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[2.760s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[2.768s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[2.775s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[2.783s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[2.791s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[2.799s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[2.807s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[2.814s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/initial_positions.yaml
+[2.822s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[2.830s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[2.837s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/ur3e.urdf.xacro
+[2.845s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/ur3e_robotiq85_gripper.urdf.xacro
+[2.852s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/ur3e_robotiq85_gripper_edited.urdf
+[2.860s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/ur5e.urdf
+[2.868s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/ur5e.urdf.xacro
+[2.876s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/ur5e_robotiq85_gripper.urdf.xacro
+[2.885s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/ur5e_robotiq85_gripper_edited.urdf
+[2.892s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[2.900s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[2.907s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[2.915s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[2.923s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[2.930s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[2.941s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[2.949s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/environment/path.sh
+[2.957s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/environment/path.dsv
+[2.965s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/local_setup.bash
+[2.973s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/local_setup.sh
+[2.982s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/local_setup.zsh
+[2.990s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/local_setup.dsv
+[3.000s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/package.dsv
+[3.008s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[3.016s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[3.024s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[3.032s] -- Symlinking: /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/install/ur_description/share/ur_description/package.xml
+[3.042s] Invoked command in '/home/iclabwill/work/ubuntu22.04_ros2/isaac_c/build/ur_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/iclabwill/work/ubuntu22.04_ros2/isaac_c/build/ur_description

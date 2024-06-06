@@ -1,0 +1,7 @@
+{
+  "package_name": "robotiq_85_msgs",
+  "non_idl_tuples": [
+    "/home/iclabwill/work/ubuntu22.04_ros2/isaac_c/src/robotiq_85_gripper/robotiq_85_msgs:msg/GripperCmd.msg",
+    "/home/iclabwill/work/ubuntu22.04_ros2/isaac_c/src/robotiq_85_gripper/robotiq_85_msgs:msg/GripperStat.msg"
+  ]
+}

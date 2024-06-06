@@ -1,0 +1,33 @@
+[0.534s] Invoking command in '/home/iclabwill/work/ubuntu22.04_ros2/build/robotiq_85_driver': AMENT_PREFIX_PATH=/home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_msgs LD_LIBRARY_PATH=/home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/iclabwill/work/ubuntu22.04_ros2/build/robotiq_85_driver/prefix_override:/home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/lib/python3.10/site-packages:/home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/iclabwill/work/ubuntu22.04_ros2/build/robotiq_85_driver/build --no-deps symlink_data
+[0.629s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.629s]   warnings.warn(
+[0.647s] running develop
+[0.648s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.648s]   warnings.warn(
+[0.706s] running egg_info
+[0.707s] creating robotiq_85_driver.egg-info
+[0.707s] writing robotiq_85_driver.egg-info/PKG-INFO
+[0.707s] writing dependency_links to robotiq_85_driver.egg-info/dependency_links.txt
+[0.707s] writing entry points to robotiq_85_driver.egg-info/entry_points.txt
+[0.707s] writing requirements to robotiq_85_driver.egg-info/requires.txt
+[0.707s] writing top-level names to robotiq_85_driver.egg-info/top_level.txt
+[0.707s] writing manifest file 'robotiq_85_driver.egg-info/SOURCES.txt'
+[0.709s] reading manifest file 'robotiq_85_driver.egg-info/SOURCES.txt'
+[0.709s] writing manifest file 'robotiq_85_driver.egg-info/SOURCES.txt'
+[0.710s] running build_ext
+[0.710s] Creating /home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/lib/python3.10/site-packages/robotiq-85-driver.egg-link (link to .)
+[0.710s] Installing robotiq_85_driver script to /home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/lib/robotiq_85_driver
+[0.711s] Installing robotiq_85_test script to /home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/lib/robotiq_85_driver
+[0.711s] Installing robotiq_85_test_close script to /home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/lib/robotiq_85_driver
+[0.711s] Installing single_robotiq_85_action_server script to /home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/lib/robotiq_85_driver
+[0.711s] 
+[0.711s] Installed /home/iclabwill/work/ubuntu22.04_ros2/build/robotiq_85_driver
+[0.711s] running symlink_data
+[0.711s] creating /home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/share/ament_index
+[0.711s] creating /home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/share/ament_index/resource_index
+[0.711s] creating /home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/share/ament_index/resource_index/packages
+[0.711s] symbolically linking /home/iclabwill/work/ubuntu22.04_ros2/build/robotiq_85_driver/resource/robotiq_85_driver -> /home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/share/ament_index/resource_index/packages
+[0.711s] symbolically linking /home/iclabwill/work/ubuntu22.04_ros2/build/robotiq_85_driver/package.xml -> /home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/share/robotiq_85_driver
+[0.711s] creating /home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/share/robotiq_85_driver/launch
+[0.711s] symbolically linking /home/iclabwill/work/ubuntu22.04_ros2/build/robotiq_85_driver/launch/gripper_driver.launch.py -> /home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/share/robotiq_85_driver/launch
+[0.722s] Invoked command in '/home/iclabwill/work/ubuntu22.04_ros2/build/robotiq_85_driver' returned '0': AMENT_PREFIX_PATH=/home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_msgs LD_LIBRARY_PATH=/home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/iclabwill/work/ubuntu22.04_ros2/build/robotiq_85_driver/prefix_override:/home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_driver/lib/python3.10/site-packages:/home/iclabwill/work/ubuntu22.04_ros2/install/robotiq_85_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/iclabwill/work/ubuntu22.04_ros2/build/robotiq_85_driver/build --no-deps symlink_data
